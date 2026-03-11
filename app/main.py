@@ -56,7 +56,7 @@ def get_task(task_id: int):
 def update_task(task_id: int, task: TaskUpdate):
     if task_id not in tasks:
         raise HTTPException(status_code=404, detail="Task not found")
-    for field, value in task.model_dump(exclude_unset=True).items():    
+    for field, value in task.model_dump(exclude_unset=True).items():
         tasks[task_id][field] = value
     return tasks[task_id]
 
