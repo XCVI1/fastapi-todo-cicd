@@ -1,6 +1,6 @@
 # FastAPI TODO API with CI/CD
-
 ![CI](https://github.com/XCVI1/fastapi-todo-cicd/actions/workflows/ci.yml/badge.svg)
+![Version](https://img.shields.io/badge/version-v1.0-blue)
 
 ## Project Overview
 
